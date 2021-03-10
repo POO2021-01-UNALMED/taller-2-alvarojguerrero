@@ -32,29 +32,29 @@ public class Auto {
     }
 
     public static void main(String[] args) {
-        Auto aut = new Auto();
-        Motor mot = new Motor();
-        aut.registro = 32;
-        mot.registro = 32;
-        aut.motor = mot;
-        aut.asientos = new Asiento[5];
-        aut.asientos[0] = new Asiento();
-        aut.asientos[0].registro = 32;
-        aut.asientos[4] = new Asiento();
-        aut.asientos[4].registro = 32;
+        Auto a = new Auto();
+        Motor m = new Motor();
+        a.registro = 32;
+        m.registro = 32;
+        a.motor = m;
+        a.asientos = new Asiento[5];
+        a.asientos[0] = new Asiento();
+        a.asientos[0].registro = 32;
+        a.asientos[4] = new Asiento();
+        a.asientos[4].registro = 32;
 
-        Auto aut2 = new Auto();
-        Motor mot2 = new Motor();
-        aut2.registro = 32;
-        mot2.registro = 32;
-        aut2.motor = mot2;
-        aut2.asientos = new Asiento[5];
-        aut2.asientos[0] = new Asiento();
-        aut2.asientos[0].registro = 40;
-        aut2.asientos[4] = new Asiento();
-        aut2.asientos[4].registro = 32;
+        Auto a2 = new Auto();
+        Motor m2 = new Motor();
+        a2.registro = 32;
+        m2.registro = 32;
+        a2.motor = m2;
+        a2.asientos = new Asiento[5];
+        a2.asientos[0] = new Asiento();
+        a2.asientos[0].registro = 40;
+        a2.asientos[4] = new Asiento();
+        a2.asientos[4].registro = 32;
 
-        System.out.println(aut2.verificarIntegridad());
+        System.out.println(a2.verificarIntegridad());
 
     }
 
