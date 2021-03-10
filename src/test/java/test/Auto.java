@@ -54,7 +54,7 @@ public class Auto {
         aut2.asientos[4] = new Asiento();
         aut2.asientos[4].registro = 32;
 
-        System.out.println(a2.verificarIntegridad());
+        System.out.println(aut2.verificarIntegridad());
 
     }
 
